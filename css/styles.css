@@ -1,0 +1,153 @@
+body #black-bar {
+  padding-top: 25px;
+  background-color: black; }
+
+body #black-bar h1 {
+  padding-left: 15px;
+  color: #fff600;
+  font-size: 30px;
+  font-weight: bold; }
+
+body #toggler {
+  background-color: #fff600; }
+
+body #bar-links a {
+  padding-top: 25px;
+  color: white; }
+
+body #bar-links a:hover {
+  text-decoration: underline; }
+
+body header {
+  position: relative;
+  background-color: black;
+  height: 95vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden; }
+
+body header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%); }
+
+body header .container {
+  position: relative;
+  z-index: 2; }
+
+body header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.25;
+  z-index: 1; }
+
+@media (pointer: coarse) and (hover: none) {
+  body header {
+    background-img: url("") black no-repeat center center scroll; }
+  body header video {
+    display: none; } }
+
+body #video-text {
+  margin-top: 15%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff600;
+  font-size: 18px;
+  font-style: oblique;
+  font-weight: 600; }
+
+body #work-body {
+  background-color: #fff600; }
+
+body .body-headers {
+  font-weight: 600; }
+
+body .portfolio-box {
+  padding-bottom: 100px; }
+
+body .gallery-pic {
+  margin-top: 25px; }
+
+body .gallery-pic:hover {
+  box-shadow: 7px 7px; }
+
+body .body-headers {
+  font-weight: 600;
+  padding-top: 75px; }
+
+body #resume-button {
+  margin-top: 50px;
+  background-color: #fff600;
+  text-align: center;
+  width: 130px;
+  height: 45px;
+  padding-top: 10px;
+  border-style: none; }
+
+body #resume-button p {
+  color: black;
+  font-weight: 500; }
+
+body #resume-button:hover {
+  box-shadow: 4px 4px; }
+
+body #exp-body {
+  padding-bottom: 50px; }
+
+body #exp-body h2 {
+  font-weight: 700; }
+
+body .jobtitle {
+  width: 50%;
+  font-style: oblique;
+  font-weight: 600;
+  position: relative;
+  top: -15px;
+  font-size: 25px; }
+
+body .jd-list {
+  font-weight: 200;
+  position: relative;
+  top: -15px; }
+
+body #ed {
+  padding-left: 40px; }
+
+body #awardhonor {
+  border: 0px;
+  border-left: 2px;
+  border-style: solid; }
+
+body .pushup-p {
+  position: relative;
+  top: -15px; }
+
+body #foot {
+  padding-top: 25px;
+  background-color: black; }
+
+body #foot h1 {
+  padding-left: 15px;
+  color: #fff600;
+  font-size: 20px;
+  font-weight: bold; }
+
+body #foot p {
+  padding-left: 15px;
+  color: white; }
+
+body #foot a {
+  color: #fff600; }

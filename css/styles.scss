@@ -1,2 +1,198 @@
 body {
+
+//navbar//
+  #black-bar{
+    padding-top: 25px;
+    background-color: black;
+  }
+
+  #black-bar h1{
+    padding-left: 15px;
+    color: #fff600;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #toggler{
+    background-color: #fff600;
+  }
+
+  #bar-links a{
+    padding-top: 25px;
+  color:white;
+}
+
+  #bar-links a:hover {
+  text-decoration: underline;
+}
+
+
+//about body
+
+  header {
+    position: relative;
+    background-color: black;
+    height: 95vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.25;
+    z-index: 1;
+  }
+
+  @media (pointer: coarse) and (hover: none) {
+    header {
+      background-img: url('') black no-repeat center center scroll;
+    }
+    header video {
+      display: none;
+    }
+  }
+
+  #video-text{
+    margin-top: 15%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff600;
+    font-size: 18px;
+    font-style: oblique;
+    font-weight: 600;
+    //height: 85vh;
+  }
+
+  //work section
+
+  #work-body{
+    background-color: #fff600;
+  }
+
+  .body-headers{
+    font-weight: 600;
+  }
+
+  .portfolio-box {
+    padding-bottom: 100px;
+  }
+
+  .gallery-pic {
+    margin-top:25px;
+  }
+
+  .gallery-pic:hover {
+    box-shadow: 7px 7px;
+
+  }
+
+  .body-headers{
+    font-weight: 600;
+    padding-top: 75px;
+  }
+
+  #resume-button{
+    margin-top: 50px;
+    background-color: #fff600;
+    text-align: center;
+    width: 130px;
+    height: 45px;
+    padding-top: 10px;
+    border-style: none;
+  }
+
+  #resume-button p{
+    color: black;
+    font-weight: 500;
+  }
+
+  #resume-button:hover{
+    box-shadow: 4px 4px;
+  }
+
+  #exp-body{
+    padding-bottom: 50px;
+  }
+
+  #exp-body h2{
+    font-weight: 700;
+  }
+
+  .jobtitle{
+
+    width: 50%;
+    font-style: oblique;
+    font-weight: 600;
+    position: relative;
+    top: -15px;
+    font-size: 25px;
+  }
+
+  .jd-list{
+    font-weight: 200;
+    position: relative;
+    top: -15px;
+  }
+
+  #ed{
+    padding-left: 40px;
+  }
+
+  #awardhonor{
+    border: 0px;
+    border-left: 2px;
+    border-style: solid;
+  }
+
+  .pushup-p {
+  position: relative;
+  top: -15px;
+  }
+
+  #foot{
+    padding-top: 25px;
+    background-color: black;
+  }
+
+  #foot h1{
+    padding-left: 15px;
+    color: #fff600;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #foot p{
+    padding-left: 15px;
+    color: white;
+  }
+
+  #foot a{
+    color: #fff600;
+  }
 }
